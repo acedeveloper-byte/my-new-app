@@ -1,77 +1,73 @@
 import React from 'react';
+import { Container } from 'react-bootstrap';
 
 const page = () => {
 	return (
 		<>
-			<>
-				<div>
-					<h1 className='my-3 fw-bold fs-2'> About us</h1>
-				</div>
-				<hr />
+			<h1 className='text-center my-4'>About Us</h1>
+			<hr />
+			<Container className='py-3'>
 				<p>
-					Librovuelos.com is a one-stop platform to book flights with different
-					airlines at discounted fares. With us, you will get exclusive flight
-					deals that will help you complete your travel dreams within your
-					budget. So if you are a budget-oriented traveler and looking forward
-					to a budget trip, then Librovuelos is your perfect pick.
+					<strong>
+						<em>Book With Find-Reservations For Affordable Trips!</em>
+					</strong>
 				</p>
 
 				<p>
-					Our dedicated team is available all the time to help you with your
-					bookings. Share your preferences, and we will craft an itinerary that
-					will suit your budget and priorities. So contact us and get ready for
-					a memorable experience on your way to your dream destination.&nbsp;
+					At find-reservations.com, we are committed to making your trip an
+					affordable travel venture so you can fly without any stress of
+					exceeding your budget limitations. Whether you are planning your
+					long-awaited dream trip or booking a spontaneous weekend getaway, our
+					platform connects you with unbeatable flight deals and reservation
+					options.
 				</p>
 
-				<h3 class='h4'>Why Choose Librovuelos?</h3>
 				<p>
-					We offer premium travel services that set us apart from other
-					third-party sites. With us, you will enjoy the following
-					benefits.&nbsp;
+					We are a passionate team of travel enthusiasts, tech experts, and
+					customer service professionals who believe that finding the right
+					flight should not feel like a full-time job. Find-Reservations serves
+					as your go-to travel partner, which prioritizes transparency,
+					affordability, and convenience.
 				</p>
 
-				<h4 class='h5'>Unbeatable Deals</h4>
+				<h2>Why Choose Us?</h2>
+				<ul>
+					<li>
+						<strong>One-Stop Search</strong>: Book flights with major airlines
+						with us.
+					</li>
+				</ul>
+				<ul>
+					<li>
+						<strong>Unbiased Comparisons</strong>: We compare different airlines
+						to find the best flight for you.
+					</li>
+				</ul>
+				<ul>
+					<li>
+						<strong>Exclusive Deals</strong>: Get hands on the unbeatable flight
+						deals that are not always available on the big-name sites.
+					</li>
+					<li>
+						<strong>Secure Bookings</strong>: We promise safe and secure
+						bookings.
+					</li>
+					<li>
+						<strong>Customer Support:</strong> Our experts are ready to help
+						when you need it.
+					</li>
+				</ul>
+
+				<h3>Our Promise</h3>
 				<p>
-					We offer countless deals and discounts to customers so they can book
-					their flight tickets without any second thoughts.
+					We are not just another booking site. At Find-Reservations, we aim to
+					be your travel ally. Whether you're traveling for business, leisure,
+					or anything in between, we strive to provide a booking experience
+					that&rsquo;s fast, easy, and always in your best interest.
 				</p>
 
-				<h4 class='h5'>Tailor-Made Packages</h4>
-				<p>
-					Our experts will customize a vacation package according to your
-					specific travel needs and budget.
-				</p>
-
-				<h4 class='h5'>Worldwide Destinations</h4>
-				<p>
-					From mountains to beaches, you can book tickets to thousands of
-					destinations worldwide with us.&nbsp;
-				</p>
-
-				<h4 class='h5'>24*7 Customer Service</h4>
-				<p>
-					Our experts are available all the time to assist you with your
-					travel-related queries for a smooth travel experience.
-				</p>
-
-				<h4 class='h5'>Reliable and Trustworthy</h4>
-				<p>
-					We are one of the reliable online travel agencies, promising to
-					provide the best services to customers.&nbsp;
-				</p>
-
-				<h3 class='h5'>Contact Us to Book Now!</h3>
-				<p>
-					At librovuelos.com, you get the best services for an unforgettable
-					journey. Our only aim is to facilitate you with a journey of your
-					liking. So what are you waiting for? Get in touch with us now to start
-					planning your next trip!
-				</p>
-
-				<br />
-			</>
-
-			<br />
+				<p>Let&rsquo;s take the stress out of travel &mdash; together!</p>
+			</Container>
 		</>
 	);
 };
