@@ -40,3 +40,193 @@ a {
     color-scheme: dark;
   }
 }
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+
+
+@media only screen and (max-width: 480px) {
+    .mob-nav {
+        line-height: 38px !important;
+    }
+}
+
+.animated-call-btn{
+  background: #411b8b;
+    border: none;
+    border-radius: 8px !important;
+}
+
+
+/* In your CSS or module */
+.full-background {
+  background-image: url('/images/home-poster.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: 400px;
+}
+
+
+.title{
+color: #000000c7 !important;
+    font-weight: 800 !important;
+    font-size: 39px !important;
+}
+
+input.form-control:focus {
+  box-shadow: none;
+  border-color: transparent;
+}
+
+
+
+ .search-background{
+  background: #00000047 !important;
+ }
+
+ [type="button"]:not(:disabled), [type="reset"]:not(:disabled), [type="submit"]:not(:disabled), button:not(:disabled) {
+    cursor: pointer;
+    color: #fff;
+ }
+
+ .btn-group > .btn-group:not(:first-child), .btn-group > :not(.btn-check:first-child) + .btn {
+    margin-left: calc(-1 * var(--bs-border-width));
+    color: #fff;
+}
+
+.btn-group > .btn-group:not(:last-child) > .btn, .btn-group > .btn.dropdown-toggle-split:first-child, .btn-group > .btn:not(:last-child):not(.dropdown-toggle) {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    color: #fff;
+
+}
+
+
+
+@media (max-width: 480px){
+  .title{
+    font-size: 26px !important;
+  }
+}
+
+.book-now{
+  background-color: #411b8b !important;
+  border: none !important;
+}
+
+.search-btn{
+  background-color: #411b8b !important;
+  border: none !important;
+}
+
+
+.top-flight{
+  color: #411b8b !important;
+}
+
+
+.phone-sticky {
+  position: fixed;
+  top: 30rem;         /* or bottom: 20px for bottom corner */
+  right: 20px;
+  background-color: #411b8b;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 8px;
+  font-weight: bold;
+  text-decoration: none;
+  z-index: 999;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.phone-sticky a {
+  color: white;
+  text-decoration: none;
+}
+
+
+@media (max-width: 480px){
+  .phone-sticky {
+    position: fixed;
+    top: 49rem;
+    right: 99px;
+    background-color: #411b8b;
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-weight: 700;
+    z-index: 999;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, .2);
+  }
+
+  .search-background{
+    margin-top: 1rem !important;
+  }
+}
+
+
+.logo-layout{
+  width: 16rem;
+}
+
+
+
+
+/* contact.css */
+
+
+
+.contact-card,
+.form-card {
+  padding: 25px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contact-card:hover,
+.form-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.contact-card .icon,
+.form-card .icon {
+  color: #411b8b;
+  margin-bottom: 10px;
+}
+
+.contact-card h5,
+.form-card h5 {
+  font-weight: 600;
+  margin-top: 10px;
+  margin-bottom: 8px;
+}
+
+.form-control:focus {
+  border-color: #411b8b;
+  box-shadow: 0 0 0 0.2rem rgba(13, 110, 253, 0.25);
+}
+
+.btn-primary {
+  background-color: #411b8b;
+  border-color: #411b8b;
+  font-weight: 600;
+}
+
+.btn-primary:hover {
+  background-color: #0b5ed7;
+  border-color: #0a58ca;
+}
+
+@media (max-width: 767px) {
+  .contact-card,
+  .form-card {
+    padding: 20px;
+  }
+}
